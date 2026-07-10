@@ -190,9 +190,7 @@ for i in range(10,0,-1):
 
 #Exercise 22: Password Checker
 print("\n-------- Password Checker --------")
-
 password = ""
-
 while password != "python":
     password = input("Enter password: ")
 
