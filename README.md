@@ -1,7 +1,12 @@
 # python-learning
 # Python Learning Journey
 
-# Week 1
+Welcome to my Python learning repository!
+
+This repository contains my daily Python practice, exercises, and mini projects as I learn Python from the basics to advanced concepts. Each week builds on the previous one with hands-on coding and problem-solving.
+
+## Progress
+### Week 1
 - ✅ Print Statements
 - ✅ Variables
 - ✅ Data Types
