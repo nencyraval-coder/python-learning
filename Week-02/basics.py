@@ -1,0 +1,66 @@
+#=========================
+# Week 2 - Strings
+#=========================
+
+print("\n========== Strings ==========")
+name = "Nency"
+city = "Ahmedabad"
+college = "GTU"
+print(name)
+print(city)
+print(college)
+
+#string Indexing
+word = "Python"
+print("\nWord : ", word)
+print("First Letter: ",word[0])
+print("Second Letter: ",word[1])
+print("Last Letter: ",word[5])
+
+#negative indexing
+word = "Programming"
+print("\nWord : ", word)
+print("Last Letter: ",word[-1])
+print("Second Last Letter: ",word[-2])
+print("Third Last Letter: ",word[-3])
+
+#Sting slicing
+text = "Artificial Intelligence"
+print("\nOriginal word: ",text)
+print(text[0:10])
+print(text[11:])
+print(text[:10])
+print(text[-12:])
+
+#Length of string
+sentence = input("Enter a sentence: ")
+print("Length of the sentence: ", len(sentence))    
+
+#upper and lower case
+text = input("Enter a text: ")
+print("Lowercase: ",text.lower())
+print("Uppercase: ",text.upper())
+
+#Exercise 7: strip()
+text = input("\nEnter something with spaces: ")
+print("Before:", text)
+print("After :", text.strip())
+
+#Exercise 8: replace()
+sentence = "I like Java"
+print(sentence.replace("Java", "Python"))
+
+#Exercise 9: find()
+sentence = "Python is easy"
+print(sentence.find("easy"))
+print(sentence.find("Java"))
+
+#Exercise 10: count()
+text = "banana"
+print(text.count("a"))
+print(text.count("n"))
+
+#Exercise 11
+email = input("\nEnter your email: ")
+print(email.startswith("n"))
+print(email.endswith(".com"))
