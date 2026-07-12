@@ -64,3 +64,27 @@ print(text.count("n"))
 email = input("\nEnter your email: ")
 print(email.startswith("n"))
 print(email.endswith(".com"))
+
+
+#Exercise 12
+print("\n---------- split() ----------")
+sentence = input("Enter your full name: ")
+words = sentence.split()
+print(words)
+
+#Exercise 13
+print("\n---------- join() ----------")
+fruits = ["Apple", "Banana", "Mango"]
+result = " - ".join(fruits)
+print(result)
+
+#Exercise 14
+print("\n---------- isalpha() ----------")
+text = input("Enter text: ")
+print(text.isalpha())
+print(text.isdigit())
+print(text.isalnum()) 
+print(name.capitalize()) #Capitalizes the first letter of the string
+print(city.title()) #Capitalizes the first letter of each word in the string
+print(text.swapcase()) #Changes uppercase letters to lowercase and vice versa
+

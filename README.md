@@ -40,3 +40,25 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - Sum of First N Numbers
   - Factorial Calculator
   - Reverse Multiplication Table
+
+### Week 2
+- ✅ upper()
+- ✅ lower()
+- ✅ len()
+- ✅ startswith()
+- ✅ endswith()
+- ✅ strip()
+- ✅ replace()
+- ✅ find()
+- ✅ count()
+- ✅ isalnum()
+- ✅ isalpha()
+- ✅ isdigit()
+- ✅ islower()
+- ✅ isupper()
+- ✅ title()
+
+#### Mini Projects
+- Username Validator
+- Password Strength Checker
+- Email Validator
