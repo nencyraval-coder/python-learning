@@ -42,23 +42,23 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - Reverse Multiplication Table
 
 ### Week 2
-- ✅ upper()
-- ✅ lower()
-- ✅ len()
-- ✅ startswith()
-- ✅ endswith()
-- ✅ strip()
-- ✅ replace()
-- ✅ find()
-- ✅ count()
-- ✅ isalnum()
-- ✅ isalpha()
-- ✅ isdigit()
-- ✅ islower()
-- ✅ isupper()
-- ✅ title()
+- ✅ String Basics
+- ✅ String Methods
+  - upper()
+  - lower()
+  - len()
+  - startswith()
+  - endswith()
+  - strip()
+- ✅ String Validation
+- ✅ String Indexing & Slicing
+  - Positive Indexing
+  - Negative Indexing
+  - String Slicing
+  - Reverse String
+  - Palindrome Checker
 
-#### Mini Projects
+- ✅ Mini Projects:
 - Username Validator
 - Password Strength Checker
 - Email Validator

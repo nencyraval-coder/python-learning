@@ -88,3 +88,13 @@ print(name.capitalize()) #Capitalizes the first letter of the string
 print(city.title()) #Capitalizes the first letter of each word in the string
 print(text.swapcase()) #Changes uppercase letters to lowercase and vice versa
 
+#Exercise 15: Slicing (The end index is not included.)
+text = "Python"
+print(text[-1])
+print(text[-6])
+word = "Programming"
+print("\n",word[4:11])
+print(word[:9])
+print(word[3:])
+print(word[-7:-1])
+print(word[::-1]) #reverse
