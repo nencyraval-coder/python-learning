@@ -1,7 +1,7 @@
 #=========================
 # Week 2 - Strings
 #=========================
-
+"""
 print("\n========== Strings ==========")
 name = "Nency"
 city = "Ahmedabad"
@@ -65,7 +65,6 @@ email = input("\nEnter your email: ")
 print(email.startswith("n"))
 print(email.endswith(".com"))
 
-
 #Exercise 12
 print("\n---------- split() ----------")
 sentence = input("Enter your full name: ")
@@ -98,3 +97,17 @@ print(word[:9])
 print(word[3:])
 print(word[-7:-1])
 print(word[::-1]) #reverse
+"""
+#Lists
+fruits = ["Apples", "Bananas", "Mango", "Orange"]
+print(fruits[-1]) #Accessing Elements
+print(fruits[0])
+fruits[1] = "Grapes" #Changing Element
+#list methods
+nums = [10,20,30,70]
+nums.pop()
+nums.append(40)
+nums.insert(1,60)
+nums.remove(10)
+print(nums)
+print(fruits)

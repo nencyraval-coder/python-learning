@@ -57,8 +57,19 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - String Slicing
   - Reverse String
   - Palindrome Checker
+- ✅ Lists
+  - Creating Lists
+  - Accessing Elements
+  - Modifying Elements
+  - List Methods
+  - Looping Through Lists
+  - Sorting a List
 
 - ✅ Mini Projects:
 - Username Validator
 - Password Strength Checker
 - Email Validator
+- Movie List
+- Number Statistics
+- Fruit Availability Checker
+  

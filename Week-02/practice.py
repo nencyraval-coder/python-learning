@@ -47,3 +47,38 @@ if (word == rev):
     print("Palindrome")
 else:
     print("Not palindrome")
+
+
+#Challenge 4: List of movies from user
+movies = []
+for i in range(0,5):
+    names = input("Enter the movie name: ")
+    movies.append(names)
+print(movies)
+
+#Challenge 5: Number list
+nums = [50,60,20,10,30,40,100,90]
+avg = sum(nums)/len(nums)
+print("Maximum: ",max(nums))
+print("Minimum: ",min(nums))
+print("Sum: ",sum(nums))
+print("Average: ",avg)
+
+#Challenge 6: Check Availability in list
+fruits = ['Apples','Oranges','Bananas','Grapes','Kiwi']
+name = input("Enter name you want to check: ")
+if name in fruits:
+    print("Available")      
+else:
+    print("Not available")
+        
+#Challenge 7:
+nums = []
+for i in range(0,5):
+    num = int(input("Enter the number: "))
+    nums.append(num)
+sorted_list = sorted(nums)
+print("Original: ",nums)
+print("Sorted: ",sorted_list)
+print("Maximum number of list: ",max(nums))
+print("Minimum number of list: ",min(nums))
