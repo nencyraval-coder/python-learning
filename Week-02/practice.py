@@ -81,4 +81,36 @@ sorted_list = sorted(nums)
 print("Original: ",nums)
 print("Sorted: ",sorted_list)
 print("Maximum number of list: ",max(nums))
-print("Minimum number of list: ",min(nums))
+print("Minimum number of list: ",min(nums))  
+
+#TUPLES AND SETS CHALLGENES
+# 1
+Subjects = ('Math', 'English', 'Science', 'Social Science')
+print(Subjects)
+print('First sub: ',Subjects[0])
+print('Last sub: ',Subjects[-1])
+print('Total subs: ',len(Subjects)) 
+# 2
+colours = {'Red','Blue','Green','Yellow','Pink'}
+colours.add('Purple')
+colours.remove('Green')
+print(colours)
+# 3
+nums=[]
+for i in range(0,10):
+    num = int(input("Enter a number: "))
+    nums.append(num)
+nums_set = set(nums)
+print("Origianl list: ",nums)
+print("The converted set: ",nums_set)  
+# 4
+set1 = eval(input("Enter first set: "))
+set2 = eval(input("Enter set 2: "))
+print("Union: ", set1 | set2)
+print("Intersection: ", set1 & set2)
+print("Difference: ", set1 - set2)
+"""
+| = Combine everything
+& = Common elements
+- = Remove the second set from the first
+^ = Keep only non-common elements"""

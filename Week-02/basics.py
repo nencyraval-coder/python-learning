@@ -1,8 +1,4 @@
-#=========================
-# Week 2 - Strings
-#=========================
-"""
-print("\n========== Strings ==========")
+
 name = "Nency"
 city = "Ahmedabad"
 college = "GTU"
@@ -41,7 +37,7 @@ text = input("Enter a text: ")
 print("Lowercase: ",text.lower())
 print("Uppercase: ",text.upper())
 
-#Exercise 7: strip()
+#Exercise 7: strip() [removes whitespace from the beginning and end of the string]
 text = input("\nEnter something with spaces: ")
 print("Before:", text)
 print("After :", text.strip())
@@ -71,14 +67,12 @@ sentence = input("Enter your full name: ")
 words = sentence.split()
 print(words)
 
-#Exercise 13
-print("\n---------- join() ----------")
+#Exercise 13 
 fruits = ["Apple", "Banana", "Mango"]
 result = " - ".join(fruits)
 print(result)
 
 #Exercise 14
-print("\n---------- isalpha() ----------")
 text = input("Enter text: ")
 print(text.isalpha())
 print(text.isdigit())
@@ -97,7 +91,7 @@ print(word[:9])
 print(word[3:])
 print(word[-7:-1])
 print(word[::-1]) #reverse
-"""
+
 #Lists
 fruits = ["Apples", "Bananas", "Mango", "Orange"]
 print(fruits[-1]) #Accessing Elements
@@ -111,3 +105,10 @@ nums.insert(1,60)
 nums.remove(10)
 print(nums)
 print(fruits)
+#TUPLES AND SETS
+colors = ("Red", "Green", "Blue") #Tuple
+print(colors[0])
+# colors[1] = "Black"   This will give an error, since tuples are immutable
+fruits = {"Apple", "Banana", "Mango", "Mango"} #Set
+print(fruits) #Output order may vary because sets are unordered.
+# Duplicates are removed automatically.

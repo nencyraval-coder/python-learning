@@ -64,6 +64,8 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - List Methods
   - Looping Through Lists
   - Sorting a List
+- ✅ Tuples
+- ✅ Sets
 
 - ✅ Mini Projects:
 - Username Validator
@@ -72,4 +74,7 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - Movie List
 - Number Statistics
 - Fruit Availability Checker
+- Tuple Practice
+- Set Practice
+- Duplicate Remover
   
