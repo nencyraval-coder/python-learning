@@ -66,6 +66,10 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - Sorting a List
 - ✅ Tuples
 - ✅ Sets
+- ✅ Functions
+- ✅ Function Parameters
+- ✅ Return Statement
+- ✅ Function Challenges
 
 - ✅ Mini Projects:
 - Username Validator
@@ -77,4 +81,7 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - Tuple Practice
 - Set Practice
 - Duplicate Remover
+- Largest Number Function
+- Even/Odd Checker
+- Calculator using Functions
   

@@ -108,9 +108,46 @@ set1 = eval(input("Enter first set: "))
 set2 = eval(input("Enter set 2: "))
 print("Union: ", set1 | set2)
 print("Intersection: ", set1 & set2)
-print("Difference: ", set1 - set2)
-"""
-| = Combine everything
-& = Common elements
-- = Remove the second set from the first
-^ = Keep only non-common elements"""
+print("Difference: ", set1 - set2) 
+
+# | = Combine everything
+# & = Common elements
+# - = Remove the second set from the first
+# ^ = Keep only non-common elements
+
+#FUNCTIONS
+# 1 largest number
+def largest(x,y):
+    if x > y:
+        print("Largest: ",x)
+    elif x < y:
+        print("Largest: ",y)
+    else:
+        print("Equal")
+a = int(input("Enter 1st no. "))
+b = int(input("Enter 2nd no. "))
+largest(a,b) 
+# 2 Even or Odd
+def even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+number = int(input("Enter number: "))
+print("The number is :",even_odd(number))
+# 3 Simple Calculator
+def calculator(x,y,op):
+    if op == '+':
+        return x + y
+    elif op == '-':
+        return x - y
+    elif op == '*':
+        return x * y
+    elif op == '/':
+        return x / y
+    else:
+        return "Invalid operator"
+num1 = int(input("Enter 1st no. "))
+num2 = int(input("Enter 2nd no. "))
+oper = input("Enter operator: ")
+print("The calculation:",calculator(num1,num2,oper))

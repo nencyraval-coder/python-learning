@@ -112,3 +112,26 @@ print(colors[0])
 fruits = {"Apple", "Banana", "Mango", "Mango"} #Set
 print(fruits) #Output order may vary because sets are unordered.
 # Duplicates are removed automatically.
+#FUNCTIONS
+def greet():
+    print("Hello!")
+    print("Welcome to Python.")
+greet()
+#function with parameters (A parameter lets us send data into a function.)
+def greet(name):
+    print("Hello,", name)
+greet("Alice")
+greet("Bob")
+greet("Charlie")
+#function w return value
+def add(a, b):
+    return a + b
+result = add(5, 3)
+print("Sum:", result)
+#Function with Multiple Parameters
+def student(name, age, branch):
+    print("Name:", name)
+    print("Age:", age)
+    print("Branch:", branch)
+student("Rahul", 20, "CSE")
+
