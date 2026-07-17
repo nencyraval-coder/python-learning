@@ -155,3 +155,10 @@ def print_values():
     y = 5  # Local variable (only accessible within this function)
     print("Inside function - x:", x)
     print("Inside function - y:", y)
+# Default parameter values
+def student(name="Unknown", class="Not specified"):
+    return f"Name: {name}, Class: {class}"
+name_student = input("Enter your name: ")
+class_student = input("Enter your class: ")
+introduction = student(name_student, class_student)
+print(introduction)

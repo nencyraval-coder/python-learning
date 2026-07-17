@@ -186,4 +186,13 @@ print("Circumference of the circle:", circumference)
 def square(num):
     return num ** 2
 number = int(input("Enter a number: "))
-print("Square of the number:", square(number))  
+print("Square of the number:", square(number)) 
+# 8 Factorial of a number
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+number = int(input("Enter a number: "))
+print("Factorial of the number:", factorial(number))    
+ 
