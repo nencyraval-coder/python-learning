@@ -134,4 +134,24 @@ def student(name, age, branch):
     print("Age:", age)
     print("Branch:", branch)
 student("Rahul", 20, "CSE")
-
+#function with default parameter
+def greet(name="Guest"):
+    print("Hello,", name)
+greet()  # Uses default value
+greet("Alice")  # Overrides default value
+#arguments and keyword arguments
+def student(name, age, branch):
+    print("Name:", name)
+    print("Age:", age)
+    print("Branch:", branch)
+student(name="Rahul", age=20, branch="CSE")  # Using keyword arguments
+#multiple return values
+def calculate(a, b):
+    return a + b, a - b, a * b, a / b
+sum_result, diff_result, prod_result, div_result = calculate(10, 5)
+#global and local variables
+x = 10  # Global variable (accessible throughout the program)
+def print_values():
+    y = 5  # Local variable (only accessible within this function)
+    print("Inside function - x:", x)
+    print("Inside function - y:", y)

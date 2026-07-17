@@ -69,7 +69,11 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ Functions
 - ✅ Function Parameters
 - ✅ Return Statement
-- ✅ Function Challenges
+- ✅ Default Parameters
+- ✅ Keyword Arguments
+- ✅ Multiple Return Values
+- ✅ Local Variables
+- ✅ Global Variables
 
 - ✅ Mini Projects:
 - Username Validator
@@ -84,4 +88,8 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - Largest Number Function
 - Even/Odd Checker
 - Calculator using Functions
+- Rectangle Calculator
+- Student Result Checker
+- Circle Calculator
+- Square of a number
   

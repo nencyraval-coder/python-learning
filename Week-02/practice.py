@@ -151,3 +151,39 @@ num1 = int(input("Enter 1st no. "))
 num2 = int(input("Enter 2nd no. "))
 oper = input("Enter operator: ")
 print("The calculation:",calculator(num1,num2,oper))
+# 4 Rectangle calculator
+def rectangle(length, width):
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+l=float(input("Enter length: "))
+b=float(input("Enter breadth: "))
+ar,per = rectangle(l,b)
+print("Area: ",ar)
+print("Perimeter: ",per)
+# 5 Student results
+def student_results(name, marks):
+    if marks >= 35:
+        status = "Pass"
+    else:
+        status = "Fail"
+    return name, status
+name = input("Enter student name: ")
+marks = int(input("Enter marks: "))
+name, result = student_results(name, marks)
+print("Student:", name)
+print("Result:", result)
+# 6 Circle calculator
+def circle_calculator(radius):
+    area = 3.14 * radius ** 2
+    circumference = 2 * 3.14 * radius
+    return area, circumference
+radius = float(input("Enter the radius of the circle: "))
+area, circumference = circle_calculator(radius)
+print("Area of the circle:", area)
+print("Circumference of the circle:", circumference)
+# 7 Square of a number
+def square(num):
+    return num ** 2
+number = int(input("Enter a number: "))
+print("Square of the number:", square(number))  
