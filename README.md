@@ -74,6 +74,15 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ Multiple Return Values
 - ✅ Local Variables
 - ✅ Global Variables
+- ✅ Dictionaries
+- ✅ Dictionary Methods
+- ✅ Looping through Dictionaries
+- ✅ File Handling
+- ✅ File Modes (r, w, a)
+- ✅ Reading Files
+- ✅ Writing Files
+- ✅ Appending Data
+- ✅ Using `with open()`
 
 - ✅ Mini Projects:
 - Username Validator
@@ -92,4 +101,14 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - Student Result Checker
 - Circle Calculator
 - Square of a number
+- Student Dictionary
+- Highest Marks Finder
+- Phone Directory
+- Product Price Checker
+- Student Marks Database
+- Frequency Counter
+- Login System
+- Shopping Cart
+- Diary 
+- Feedback System
   

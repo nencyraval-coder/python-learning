@@ -18,3 +18,32 @@ if key in student:
     print("Key exists")
 else:
     print("Doesn't Exist")
+# FILE HANDLING
+    # Writing in a file
+file = open("notes.txt","w")
+
+file.write("Hello Python!\n")
+file.write("Learning File Python")
+
+file.close()
+    # Reading in a file
+file = open("notes.txt","r")
+# line by line
+for line in file:
+    print(line)
+#reads one line
+print(file.readline())
+
+content = file.read() #complete thing
+
+print(content)
+file.close()
+    # Appending data
+# This is the recommended way because Python automatically closes the file.
+with open("notes.txt", "a") as file:
+file.write("\nPython is awesome!")
+
+file.close()
+
+print("New data added.")
+
