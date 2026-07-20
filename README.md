@@ -21,6 +21,7 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ while Loop
 - ✅ break Statement
 
+
 - ✅ Mini Projects:
   - Rectangle Area Calculator
   - Circle Area Calculator
@@ -74,6 +75,28 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ Multiple Return Values
 - ✅ Local Variables
 - ✅ Global Variables
+
+
+- ✅ Mini Projects:
+  - Username Validator
+  - Password Strength Checker
+  - Email Validator
+  - Movie List
+  - Number Statistics
+  - Fruit Availability Checker
+  - Tuple Practice
+  - Set Practice
+  - Duplicate Remover
+  - Largest Number Function
+  - Even/Odd Checker
+  - Calculator using Functions
+  - Rectangle Calculator
+  - Student Result Checker
+  - Circle Calculator
+  - Square of a number
+
+
+### Week 3
 - ✅ Dictionaries
 - ✅ Dictionary Methods
 - ✅ Looping through Dictionaries
@@ -83,32 +106,23 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ Writing Files
 - ✅ Appending Data
 - ✅ Using `with open()`
-
-- ✅ Mini Projects:
-- Username Validator
-- Password Strength Checker
-- Email Validator
-- Movie List
-- Number Statistics
-- Fruit Availability Checker
-- Tuple Practice
-- Set Practice
-- Duplicate Remover
-- Largest Number Function
-- Even/Odd Checker
-- Calculator using Functions
-- Rectangle Calculator
-- Student Result Checker
-- Circle Calculator
-- Square of a number
-- Student Dictionary
-- Highest Marks Finder
-- Phone Directory
-- Product Price Checker
-- Student Marks Database
-- Frequency Counter
-- Login System
-- Shopping Cart
-- Diary 
-- Feedback System
+- ✅ Exception Handling
+- ✅ try, except, else, finally
+- ✅ Handling Common Errors
+  - ValueError
+  - ZeroDivisionError
+  - FileNotFoundError
   
+- ✅ Mini Projects:
+  - Student Dictionary
+  - Highest Marks Finder
+  - Phone Directory
+  - Product Price Checker
+  - Student Marks Database
+  - Frequency Counter
+  - Login System
+  - Shopping Cart
+  - Diary 
+  - Feedback System
+  - Safe Calculator
+  - Student Result Calculator
