@@ -41,9 +41,53 @@ file.close()
     # Appending data
 # This is the recommended way because Python automatically closes the file.
 with open("notes.txt", "a") as file:
-file.write("\nPython is awesome!")
+    file.write("\nPython is awesome!")
 
 file.close()
-
 print("New data added.")
+# An exception is an error that occurs while the program is running.
+# 1 try and except
+try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
 
+except:
+    print("Something went wrong!")
+
+# 2 catch specific errors
+try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
+
+# 3 else runs only if no exception occurs.
+try:
+    num = int(input("Enter a number: "))
+    result = 100 / num
+
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+
+else:
+    print("Answer:", result)
+
+# 4 finally always runs, whether there is an error or not.
+try:
+    num = int(input("Enter a number: "))
+    result = 100 / num
+
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+
+finally:
+    print("Execution completed.")
+# 5 file handling exceptions
+try:
+    with open("notes.txt", "r") as file:
+        print(file.read())
+
+except FileNotFoundError:
+    print("File not found.")

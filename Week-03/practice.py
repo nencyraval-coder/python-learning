@@ -93,27 +93,68 @@ lowest_salary = min(employees, key= employees.get)
 average = sum(employees.values()) / len(employees)
 print("Highest salary:",highest_salary)
 print("Lowest salary:",lowest_salary)
-print("Average salary:",average)
+print("Average salary:",average) 
+
 # FILE HANDLING
 # 1 DIARY
 diary = input("Write today's note: ")
 with open("diary.txt", "a") as file:
     file.write(diary + "\n")
 print("Diary saved.")
+
 # 2 Counting no. of chars
 with open("notes.txt", "r") as file:
     text = file.read()
 print("Characters:", len(text))
+
 # 3 Counting no. of lines
 with open("notes.txt", "r") as file:
     lines = file.readlines()
 print("Total lines:", len(lines))
+
 # 4 Feedback system
 feedback = input("Enter feedback: ")
 with open("feedbacks.txt","a") as file:
     file.write(feedback + "\n")
+
 print("Feedback saved!\n")
 print("All feedbacks:\n")
+
 with open("feedbacks.txt","r") as file:
     feeds = file.read()
 print(feeds)
+# EXCEPTION HANDLING
+# 1
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print("Answer:", num1 / num2)
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Please enter numbers only.")
+
+# 2 
+try:
+    age = int(input("Enter age: "))
+    print("Your age is", age)
+except ValueError:
+    print("Age must be an integer.")
+
+# 3 
+try:
+    marks = int(input("Enter marks: "))
+    if marks < 0 or marks > 100:
+        print("Marks should be between 0 and 100.")
+    elif marks >= 90:
+        print("Grade A")
+    elif marks >= 75:
+        print("Grade B")
+    elif marks >= 50:
+        print("Grade C")
+    else:
+        print("Fail")
+except ValueError:
+    print("Invalid marks entered.")
+finally:
+    print("Thank you!")
