@@ -67,10 +67,8 @@ except ValueError:
 try:
     num = int(input("Enter a number: "))
     result = 100 / num
-
 except ZeroDivisionError:
     print("Division by zero is not allowed.")
-
 else:
     print("Answer:", result)
 
@@ -78,16 +76,35 @@ else:
 try:
     num = int(input("Enter a number: "))
     result = 100 / num
-
 except ZeroDivisionError:
     print("Division by zero is not allowed.")
-
 finally:
     print("Execution completed.")
 # 5 file handling exceptions
 try:
     with open("notes.txt", "r") as file:
         print(file.read())
-
 except FileNotFoundError:
     print("File not found.")
+# MODULES AND LIBRARIES
+# 1 math module
+import math
+print("Square root: ",math.sqrt(64))
+print("Power: ",math.pow(5,3))
+print("Pi value: ",math.pi)
+print("Floor: ", math.floor(8.9))
+print("Ceil: ", math.ceil(8.6))
+
+# 2 random
+import random
+print("Random module:", random.randint(1,100) )
+colors = ['red','blue','yellow','green','purple']
+print("Random color: ", random.choice(colors))
+
+# date and time
+import datetime
+today = datetime.datetime.now()
+print("Current Date:", today.date())
+print("Current Time:", today.time())
+print("Year:", today.year)
+print("Month:", today.month)
