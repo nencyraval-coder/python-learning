@@ -158,3 +158,23 @@ except ValueError:
     print("Invalid marks entered.")
 finally:
     print("Thank you!")
+# MODULES AND LIBRARIES
+# 1 Dice simulator
+import random
+dice = random.randint(1, 6) # randint includes upper limit
+print("Dice shows:", dice)
+
+# 2 password generator
+import random
+letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+password = ""
+for i in range(8):
+    password += random.choice(letters)
+print("Generated Password:", password)
+
+# 3 Age calculator
+import datetime
+birth = int(input("Enter birth year: "))
+current = datetime.datetime.now().year
+print("Your age is:", current - birth)
+
