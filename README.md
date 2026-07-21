@@ -108,10 +108,12 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ Using `with open()`
 - ✅ Exception Handling
 - ✅ try, except, else, finally
-- ✅ Handling Common Errors
-  - ValueError
-  - ZeroDivisionError
-  - FileNotFoundError
+- ✅ Exception Handling
+- ✅ Modules
+  -  Math Module
+  -  Random Module
+  -  Datetime Module
+  -  Custom Modules
   
 - ✅ Mini Projects:
   - Student Dictionary
@@ -126,3 +128,6 @@ This repository contains my daily Python practice, exercises, and mini projects 
   - Feedback System
   - Safe Calculator
   - Student Result Calculator
+  - Dice Simulator
+  - Password Generator
+  
