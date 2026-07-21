@@ -1,4 +1,4 @@
-#Creating and accessing a dictionary
+"""#Creating and accessing a dictionary
 student = {"name":"Alex", "Roll no.": 20, "Branch": "CSE", "CGPA": 8.7}
 print(student)
 print("Name:",student["name"])
@@ -85,7 +85,7 @@ try:
     with open("notes.txt", "r") as file:
         print(file.read())
 except FileNotFoundError:
-    print("File not found.")
+    print("File not found.") """
 # MODULES AND LIBRARIES
 # 1 math module
 import math
@@ -108,3 +108,5 @@ print("Current Date:", today.date())
 print("Current Time:", today.time())
 print("Year:", today.year)
 print("Month:", today.month)
+# own module
+# create own .py file with diff funcs and later you can use them
