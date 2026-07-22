@@ -110,10 +110,15 @@ This repository contains my daily Python practice, exercises, and mini projects 
 - ✅ try, except, else, finally
 - ✅ Exception Handling
 - ✅ Modules
-  -  Math Module
-  -  Random Module
-  -  Datetime Module
-  -  Custom Modules
+- ✅ Basic OOP
+  - Classes
+  - Objects
+  - Creating Multiple Objects
+  - Object Attributes
+  - Student Class
+  - Mobile Class
+  - Car Class
+  - Book Class
   
 - ✅ Mini Projects:
   - Student Dictionary
