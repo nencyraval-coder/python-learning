@@ -177,4 +177,34 @@ import datetime
 birth = int(input("Enter birth year: "))
 current = datetime.datetime.now().year
 print("Your age is:", current - birth)
-
+# BAISCS OF OBJECT-ORIENTEND PROGRAMMING
+# 1 MOBILE
+class Mobile:
+    brand = ''
+    price = 0
+mobile = Mobile()
+mobile.brand = input("Enter brand name: ")
+mobile.price = int(input('Enter price of mobile: '))
+print("Brand:", mobile.brand)
+print("Price:", mobile.price)
+# 2 student
+class Student:
+    name = ""
+    age = 0
+    cgpa = 0.0
+student = Student()
+student.name = input("Enter name: ")
+student.age = int(input("Enter age: "))
+student.cgpa = float(input("Enter CGPA: "))
+print(student.name)
+print(student.age)
+print(student.cgpa)
+# 3 laptop
+class Laptop:
+    company = ""
+    ram = 0
+lap = Laptop()
+lap.company = input("Enter company: ")
+lap.ram = int(input("Enter RAM (GB): "))
+print("Company:", lap.company)
+print("RAM:", lap.ram, "GB")
