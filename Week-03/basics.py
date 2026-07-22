@@ -110,3 +110,41 @@ print("Year:", today.year)
 print("Month:", today.month)
 # own module
 # create own .py file with diff funcs and later you can use them
+#  OBJECT-ORINENTED PROGRAMMING (OOP)
+# single object
+class student:
+    name = 'Alex'
+    age = 20
+student1 = student()
+print(student1.name())
+print(student1.age)
+# multiple object
+## student
+class student:
+    name = ''
+    age = 0
+
+student1 = student()
+student2 = student()
+
+student1.name = 'Rahul'
+student1.age = 20
+
+student2.name = 'Priya'
+student2.age = 19
+
+print(student1.name)
+print(student1.age)
+print(student2.name)
+print(student2.age)
+class Car:
+    brand = ""
+    price = 0
+## car
+car1 = Car()
+
+car1.brand = "Toyota"
+car1.price = 1500000
+
+print(car1.brand)
+print(car1.price)
